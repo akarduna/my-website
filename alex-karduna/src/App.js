@@ -1,11 +1,11 @@
 import * as React from 'react';
-import Button from '@mui/material/Button';
-import { Box, Checkbox } from '@mui/material';
+import { Box } from '@mui/material';
 import Header from './Componenets/Header';
 import { themeOptions } from './theme';
 import { createTheme, ThemeProvider } from "@mui/material/styles";
 import CssBaseline from '@mui/material/CssBaseline';
 import Blurb from './Componenets/Blurb';
+import Square from './Componenets/Square';
 
 export default function ButtonUsage() {
   const theme = createTheme(themeOptions);
@@ -16,7 +16,8 @@ export default function ButtonUsage() {
       <Box width="80%" display="flex" flexDirection="column" justifySelf="center">
         <Header></Header>
         <Blurb></Blurb>
-        </Box>
+        <Square></Square>
+      </Box>
     </ThemeProvider>
   );
 }

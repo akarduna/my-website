@@ -1,4 +1,4 @@
-import { Typography, Box, Grid2} from '@mui/material';
+import { Typography, Grid2} from '@mui/material';
 import * as React from 'react';
 import SvgIcon from '@mui/material/SvgIcon';
 
