@@ -5,11 +5,14 @@ import SvgIcon from '@mui/material/SvgIcon';
 
 export default function Header(){
     return ( 
-        <Grid2 container width="100%" paddingTop="1%" justifySelf="center">
-            <Grid2 size={6}>
+        <Grid2 container width="100%" paddingTop="1%" justifySelf="center" justifyContent="space-between" alignItems="center">
+            <Grid2 size={4}>
                 <Typography variant='h5' sx={{color:"palette.text.primary"}}>Alex Karduna</Typography> 
             </Grid2>
-            <Grid2 offset="auto" size={6}>
+            <Grid2 size="auto">
+                <Typography variant='h5' sx={{color:"palette.text.primary"}}>Projects</Typography> 
+            </Grid2>
+            <Grid2 size={4}>
                 <Grid2 container direction="row" justifyContent="flex-end" spacing={1}>
                     <Grid2 size="auto">
                         <SvgIcon>
